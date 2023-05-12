@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <title>ASSIGNMEENT 2</title>
+
+    <style>
+        *{
+            margin: 10px 10px 10px 10px;
+        margin-bottom:25px;
+            padding: 1px;
+        }
+        body{
+            background-image:url("https://worldaishow.com/assets/img/upcoming-events/dubai.jpg");
+            margin-bottom:50px;
+            background-size:cover;
+            background-repeat: no-repeat;
+        }
+         .container{
+            width:auto;
+            margin:auto;
+            }
+          
+   header{
+    background-color:black ;
+    height: 80px;
+    line-height:80px;
+   }
+        .navbar{
+            float:left;
+            display:flex;
+           height:30px;
+           -ms-flex-align: start;
+        
+           background-size:cover;
+            line-height:30px ;
+            font-size: small;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight:bold;
+      
+         }
+         .logo{
+            
+            margin-bottom:10px;
+         }
+
+         .list{
+            display:inline-flex;
+            list-style:none;
+            position: relative;
+            padding-bottom: 25px;
+            colr:rgb(255, 255, 255);
+           
+
+         }
+         ul li {
+            float:left;
+            font-size:medium;
+            font-weight:400;
+        margin-right:70px;
+        color:rgb(255, 255, 255);
+    
+ } 
+ a:hover{
+    transition:3s;
+ color:brown;
+    text-transform:initial;
+    background-color:rgb(228, 156, 0) ;
+ }
+
+        
+          
+         button{
+            visibility:visible;
+            box-sizing:content-box;
+            width:120px;
+            border-radius:20%;
+            font-size:15px;
+            font-weight:bold;
+            margin-left:90px;
+            padding:50 50 50 50 ;
+            background-color:blueviolet;
+            color:white;
+                        
+         }
+
+         .hero-section{
+            text-align: center;
+             font-weight:900;
+             font-size:50px;
+             margin-top:110px;
+             font-family: 'Kanit', sans-serif;
+color:white;
+         }
+          
+         .button{
+            background-color: blueviolet;
+            color:white;
+            height:100px ;
+          
+            width:150px;
+            box-sizing:content-box;
+            font-weight:300;
+            font-size:20px;
+            text-align:center;
+    align-items: center;
+            justify-content: center;
+         margin-left:600px;
+         padding:10px 10px 10px 10px;
+         display:inline-flex;
+         cursor:pointer;
+        
+          
+         }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <header>
+    
+    <div class="container">
+        <nav class="navbar">
+<h2>
+        <img src="white-logo - Copy.png" alt="LOGO" class="logo"></h2>
+
+   <ul class="list">
+    <li> <a href="#">APPS</a></li>
+   <li> <a href="#">D&O</a></li>
+   <li><a href="#"> TECHNOLOGIES</a></li>
+   <li><a href="#">CONTRIBUTIONS</a></li>
+   </ul>
+
+ <div>
+    <button class="button-large"> BUY THEM </button></div>
+   
+ </nav>
+</div>
+    </header>
+
+    <!-- main section -->
+
+    <section>
+        <div class="hero-section">
+            <h1> LET'S BUILD A BETTER <br>TOMORROW, TOGETHER</h1>
+        </div>
+
+       <button class="button"> REQUEST EARLY ACCESS</button>
+    </section>
+</body>
+</html>
